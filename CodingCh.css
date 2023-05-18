@@ -1,0 +1,77 @@
+body{
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    display: flex;
+    justify-content: center;       
+}
+
+.container{
+    background-color: rgba(0, 0, 0, 60%) ;
+    border-radius: 15px;
+    padding: 35px;
+    width: 900px;
+    height: 580px;
+}
+
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+}
+
+#titolo{
+    color: rgb(26, 216, 5);
+    line-height: 10px;
+    text-align: center;   
+}
+
+.Bottoni{
+   padding: 10px;
+   margin: auto;
+   background-color: rgb(26, 216, 5);
+   width: 800px;
+   text-align: center;   
+}
+
+main > div{
+    margin-left: 40px;
+}
+
+.Tipo-Monopattino{
+    color: white;
+    font-size: 20px;
+    line-height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;        
+}
+
+.Via{
+    color: white;
+    font-size: 15px; 
+    font-family: Arial, Helvetica, sans-serif;   
+}
+
+.rettangolo_giallo, 
+    .rettangolo_verde, 
+        .rettangolo_rosso {
+	height:20px;
+    border-radius: 5px;
+    padding: 5px;    
+}
+
+.rettangolo_giallo{
+	width:260px;
+	background:rgb(230, 168, 53);
+}
+
+.rettangolo_verde{
+    width:500px;
+	background: rgb(43, 186, 43);  
+}
+
+.rettangolo_rosso{
+    width:100px;
+	background: rgb(209, 91, 91);   
+}
